@@ -1,0 +1,3 @@
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/.cxx/RelWithDebInfo/4q4b5b40/armeabi-v7a/CMakeFiles/samp.dir
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/.cxx/RelWithDebInfo/4q4b5b40/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/.cxx/RelWithDebInfo/4q4b5b40/armeabi-v7a/CMakeFiles/rebuild_cache.dir

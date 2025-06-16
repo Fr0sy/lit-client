@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "56833532138",
+    "project_id": "level-mta",
+    "storage_bucket": "level-mta.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56833532138:android:711288f8a27484af99b793",
+        "android_client_info": {
+          "package_name": "com.level.hub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdD9D8VDVYQExsD3bEW7WfqPzlSf8OGZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56833532138:android:82f99a2d26b199b399b793",
+        "android_client_info": {
+          "package_name": "com.level.hub.debug"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdD9D8VDVYQExsD3bEW7WfqPzlSf8OGZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

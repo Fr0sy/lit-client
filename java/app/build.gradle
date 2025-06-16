@@ -1,0 +1,133 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+}
+
+android {
+    namespace 'com.level.hub'
+
+    compileSdkVersion 34
+    buildToolsVersion "34.0.0"
+
+    defaultConfig {
+        applicationId 'com.level.hub'
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionCode 23
+        versionName '1.0'
+
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled = true
+
+        ndk {
+            abiFilters 'armeabi-v7a'
+        }
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('C:\\lit-last\\key.jks') // тут путь к ключу не забудь бро поменять
+            storePassword 'mtayk043'
+            keyAlias 'key0'
+            keyPassword 'mtayk043' // рандом пароль для ключа шаришь макс рксе?
+        }
+    }
+
+    packagingOptions {
+        jniLibs {
+            excludes += ['META-INF/*']
+        }
+        resources {
+            excludes += ['META-INF/*']
+        }
+    }
+
+    buildTypes {
+        release {
+            firebaseCrashlytics {
+                nativeSymbolUploadEnabled true
+                strippedNativeLibsDir 'build/intermediates/stripped_native_libs/release/out/lib'
+                unstrippedNativeLibsDir 'build/intermediates/merged_native_libs/release/out/lib'
+            }
+
+            shrinkResources true
+            minifyEnabled true
+
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+            signingConfig signingConfigs.release
+            
+            debuggable false
+            jniDebuggable false
+        }
+    }
+
+    buildFeatures {
+        prefab true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    ndkVersion '21.3.6528147'
+    externalNativeBuild {
+        cmake {
+            path "src/main/jni/CMakeLists.txt"
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+}
+
+android.applicationVariants.all { variant ->
+    variant.outputs.all {
+        outputFileName = "${applicationId}-${variant.versionName}.apk"
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+
+    // androidx
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.navigation:navigation-fragment:2.3.5'
+    implementation 'androidx.navigation:navigation-ui:2.3.5'
+    implementation 'androidx.core:core:1.13.0'
+    implementation "androidx.lifecycle:lifecycle-process:2.2.0"
+
+    // material
+    implementation 'com.google.android.material:material:1.12.0'
+
+    // firebase
+    implementation platform('com.google.firebase:firebase-bom:30.1.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-crashlytics-ndk'
+    implementation 'com.google.firebase:firebase-messaging'
+
+    // libs
+    implementation 'com.github.alexto9090:PRDownloader:1.0'
+    implementation 'com.android.volley:volley:1.2.1'
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+    implementation 'org.ini4j:ini4j:0.5.4'
+    implementation 'com.github.bumptech.glide:glide:4.15.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.15.1'
+    implementation 'com.tuyenmonkey:mkloader:1.4.0'
+    implementation 'com.github.skydoves:colorpickerpreference:2.0.4'
+    implementation 'com.bytedance.android:shadowhook:1.0.9'
+    implementation "com.joom.paranoid:paranoid-gradle-plugin:0.3.14"
+
+    // tests
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation 'com.github.Triggertrap:SeekArc:v1.1'
+}

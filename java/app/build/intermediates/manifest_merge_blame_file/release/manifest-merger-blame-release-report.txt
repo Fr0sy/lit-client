@@ -1,0 +1,476 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.level.hub"
+4    android:installLocation="auto"
+5    android:versionCode="23"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+10        android:targetSdkVersion="27" />
+11
+12    <uses-permission android:name="INSTALL_PACKAGES" />
+12-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:6:5-56
+12-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:6:22-53
+13    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+13-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:7:5-76
+13-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:8:5-68
+14-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:8:22-65
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:9:5-80
+15-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:9:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:10:5-81
+16-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:11:5-67
+17-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:11:22-64
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:12:5-66
+18-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:12:22-63
+19    <uses-permission android:name="android.permission.ACCESS_ALL_DOWNLOADS" />
+19-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:13:5-79
+19-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:14:5-79
+20-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:14:22-76
+21    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+21-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:15:5-73
+21-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:15:22-70
+22    <uses-permission android:name="android.permission.BLUETOOTH" />
+22-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:16:5-68
+22-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:16:22-65
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+23-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:17:5-75
+23-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:17:22-73
+24    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+24-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:18:5-81
+24-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:18:22-78
+25    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+25-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:19:5-77
+25-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:19:22-74
+26    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+26-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:20:5-83
+26-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:20:22-80
+27    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+27-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:21:5-82
+27-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:21:22-79
+28    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+28-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:22:5-71
+28-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:22:22-68
+29
+30    <uses-feature
+30-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:24:5-77
+31        android:glEsVersion="0x00020000"
+31-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:24:19-51
+32        android:required="true" />
+32-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:24:52-75
+33    <uses-feature
+33-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:25:5-27:36
+34        android:name="android.hardware.touchscreen"
+34-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:26:9-52
+35        android:required="false" />
+35-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:27:9-33
+36    <uses-feature
+36-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:28:5-30:36
+37        android:name="android.software.leanback"
+37-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:29:9-49
+38        android:required="false" />
+38-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:30:9-33
+39    <uses-feature
+39-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:31:5-33:36
+40        android:name="android.hardware.bluetooth"
+40-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:32:9-50
+41        android:required="false" />
+41-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:33:9-33
+42    <uses-feature
+42-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:34:5-36:36
+43        android:name="android.hardware.microphone"
+43-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:35:9-51
+44        android:required="false" />
+44-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:36:9-33
+45
+46    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+46-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:38:5-110
+46-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:38:22-107
+47    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+47-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:39:5-77
+47-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:39:22-74
+48    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+48-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:40:5-82
+48-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:40:22-79
+49    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+49-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\d4304f5ecbebc834b295e9d1248019f1\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:25:5-79
+49-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\d4304f5ecbebc834b295e9d1248019f1\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:25:22-76
+50
+51    <permission
+51-->[androidx.core:core:1.13.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\245688eee6bb45949243307830c8acf8\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+52        android:name="com.level.hub.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+52-->[androidx.core:core:1.13.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\245688eee6bb45949243307830c8acf8\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+53        android:protectionLevel="signature" />
+53-->[androidx.core:core:1.13.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\245688eee6bb45949243307830c8acf8\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+54
+55    <uses-permission android:name="com.level.hub.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+55-->[androidx.core:core:1.13.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\245688eee6bb45949243307830c8acf8\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+55-->[androidx.core:core:1.13.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\245688eee6bb45949243307830c8acf8\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+56
+57    <application
+57-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:42:5-104:19
+58        android:allowBackup="true"
+58-->[com.github.Triggertrap:SeekArc:v1.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\7d7a8abaf5e3067e52515d3434982374\transformed\jetified-SeekArc-v1.1\AndroidManifest.xml:35:9-35
+59        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+59-->[androidx.core:core:1.13.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\245688eee6bb45949243307830c8acf8\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+60        android:banner="@mipmap/ic_launcher"
+60-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:46:9-45
+61        android:extractNativeLibs="true"
+62        android:gwpAsanMode="always"
+62-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:43:9-37
+63        android:hardwareAccelerated="true"
+63-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:47:9-43
+64        android:icon="@mipmap/ic_launcher"
+64-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:48:9-43
+65        android:isGame="true"
+65-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:49:9-30
+66        android:label="@string/app_name"
+66-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:51:9-41
+67        android:largeHeap="true"
+67-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:50:9-33
+68        android:networkSecurityConfig="@xml/network_security_config"
+68-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:52:9-69
+69        android:requestLegacyExternalStorage="true"
+69-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:44:9-52
+70        android:roundIcon="@mipmap/ic_launcher_round"
+70-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:53:9-54
+71        android:supportsRtl="true"
+71-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:54:9-35
+72        android:testOnly="true"
+73        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+73-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:55:9-65
+74        android:usesCleartextTraffic="true"
+74-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:56:9-44
+75        android:windowSoftInputMode="adjustNothing" >
+75-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:57:9-52
+76        <provider
+77            android:name="androidx.core.content.FileProvider"
+77-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:60:13-62
+78            android:authorities="com.level.hub.provider"
+78-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:61:13-60
+79            android:exported="false"
+79-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:62:13-37
+80            android:grantUriPermissions="true" >
+80-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:63:13-47
+81            <meta-data
+81-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:64:13-66:58
+82                android:name="android.support.FILE_PROVIDER_PATHS"
+82-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:65:17-67
+83                android:resource="@xml/provider_paths" />
+83-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:66:17-55
+84        </provider>
+85
+86        <activity
+86-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:69:9-76:39
+87            android:name="com.rockstargames.gtasa.core.GTASA"
+87-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:70:13-62
+88            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+88-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:73:13-90
+89            android:exported="true"
+89-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:76:13-36
+90            android:launchMode="singleTask"
+90-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:74:13-44
+91            android:screenOrientation="landscape"
+91-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:71:13-50
+92            android:theme="@style/Theme.AppCompat.NoActionBar"
+92-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:72:13-63
+93            android:windowSoftInputMode="adjustPan" />
+93-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:75:13-52
+94        <activity
+94-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:78:9-82:20
+95            android:name="com.level.hub.launcher.activity.UpdateActivity"
+95-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:79:13-74
+96            android:screenOrientation="landscape"
+96-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:80:13-50
+97            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+97-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:81:13-69
+98        </activity>
+99
+100        <service
+100-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:84:9-128
+101            android:name="com.level.hub.launcher.services.UpdateService"
+101-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:84:18-78
+102            android:enabled="true"
+102-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:84:79-101
+103            android:exported="false" />
+103-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:84:102-126
+104
+105        <activity
+105-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:86:9-91:20
+106            android:name="com.level.hub.launcher.activity.MainActivity"
+106-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:87:13-72
+107            android:screenOrientation="landscape"
+107-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:88:13-50
+108            android:theme="@style/Theme.AppCompat.NoActionBar"
+108-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:89:13-63
+109            android:windowSoftInputMode="adjustNothing" >
+109-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:90:13-56
+110        </activity>
+111        <activity
+111-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:93:9-103:20
+112            android:name="com.level.hub.launcher.activity.SplashActivity"
+112-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:94:13-74
+113            android:exported="true"
+113-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:96:13-36
+114            android:screenOrientation="landscape"
+114-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:95:13-50
+115            android:theme="@style/Theme.AppCompat.NoActionBar" >
+115-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:97:13-63
+116            <intent-filter>
+116-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:99:13-102:29
+117                <action android:name="android.intent.action.MAIN" />
+117-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:100:17-69
+117-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:100:25-66
+118
+119                <category android:name="android.intent.category.LAUNCHER" />
+119-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:101:17-77
+119-->C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\src\main\AndroidManifest.xml:101:27-74
+120            </intent-filter>
+121        </activity>
+122
+123        <service
+123-->[com.google.firebase:firebase-crashlytics-ndk:18.2.11] C:\Users\mtayk\.gradle\caches\8.9\transforms\6d331dc1898f672d06e90fa42a52cf72\transformed\jetified-firebase-crashlytics-ndk-18.2.11\AndroidManifest.xml:32:9-38:19
+124            android:name="com.google.firebase.components.ComponentDiscoveryService"
+124-->[com.google.firebase:firebase-crashlytics-ndk:18.2.11] C:\Users\mtayk\.gradle\caches\8.9\transforms\6d331dc1898f672d06e90fa42a52cf72\transformed\jetified-firebase-crashlytics-ndk-18.2.11\AndroidManifest.xml:33:13-84
+125            android:directBootAware="true"
+125-->[com.google.firebase:firebase-common:20.1.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\10739c16c1ef2f02ac0c8ebfa045d22c\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+126            android:exported="false" >
+126-->[com.google.firebase:firebase-crashlytics-ndk:18.2.11] C:\Users\mtayk\.gradle\caches\8.9\transforms\6d331dc1898f672d06e90fa42a52cf72\transformed\jetified-firebase-crashlytics-ndk-18.2.11\AndroidManifest.xml:34:13-37
+127            <meta-data
+127-->[com.google.firebase:firebase-crashlytics-ndk:18.2.11] C:\Users\mtayk\.gradle\caches\8.9\transforms\6d331dc1898f672d06e90fa42a52cf72\transformed\jetified-firebase-crashlytics-ndk-18.2.11\AndroidManifest.xml:35:13-37:85
+128                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar"
+128-->[com.google.firebase:firebase-crashlytics-ndk:18.2.11] C:\Users\mtayk\.gradle\caches\8.9\transforms\6d331dc1898f672d06e90fa42a52cf72\transformed\jetified-firebase-crashlytics-ndk-18.2.11\AndroidManifest.xml:36:17-122
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-crashlytics-ndk:18.2.11] C:\Users\mtayk\.gradle\caches\8.9\transforms\6d331dc1898f672d06e90fa42a52cf72\transformed\jetified-firebase-crashlytics-ndk-18.2.11\AndroidManifest.xml:37:17-82
+130            <meta-data
+130-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\ddeaf30138fb616a8054c50f5e3ef478\transformed\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:55:13-57:85
+131                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+131-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\ddeaf30138fb616a8054c50f5e3ef478\transformed\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:56:17-119
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\ddeaf30138fb616a8054c50f5e3ef478\transformed\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:57:17-82
+133            <meta-data
+133-->[com.google.firebase:firebase-crashlytics:18.2.11] C:\Users\mtayk\.gradle\caches\8.9\transforms\7fc3df45a4949ce636590d95beebb2d4\transformed\jetified-firebase-crashlytics-18.2.11\AndroidManifest.xml:18:13-20:85
+134                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+134-->[com.google.firebase:firebase-crashlytics:18.2.11] C:\Users\mtayk\.gradle\caches\8.9\transforms\7fc3df45a4949ce636590d95beebb2d4\transformed\jetified-firebase-crashlytics-18.2.11\AndroidManifest.xml:19:17-115
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.firebase:firebase-crashlytics:18.2.11] C:\Users\mtayk\.gradle\caches\8.9\transforms\7fc3df45a4949ce636590d95beebb2d4\transformed\jetified-firebase-crashlytics-18.2.11\AndroidManifest.xml:20:17-82
+136            <meta-data
+136-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\d4304f5ecbebc834b295e9d1248019f1\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:31:13-33:85
+137                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+137-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\d4304f5ecbebc834b295e9d1248019f1\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:32:17-139
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.android.gms:play-services-measurement-api:21.0.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\d4304f5ecbebc834b295e9d1248019f1\transformed\jetified-play-services-measurement-api-21.0.0\AndroidManifest.xml:33:17-82
+139            <meta-data
+139-->[com.google.firebase:firebase-datatransport:18.1.4] C:\Users\mtayk\.gradle\caches\8.9\transforms\072d93b5d66f12484092b184eaaa96a2\transformed\jetified-firebase-datatransport-18.1.4\AndroidManifest.xml:28:13-30:85
+140                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+140-->[com.google.firebase:firebase-datatransport:18.1.4] C:\Users\mtayk\.gradle\caches\8.9\transforms\072d93b5d66f12484092b184eaaa96a2\transformed\jetified-firebase-datatransport-18.1.4\AndroidManifest.xml:29:17-115
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.firebase:firebase-datatransport:18.1.4] C:\Users\mtayk\.gradle\caches\8.9\transforms\072d93b5d66f12484092b184eaaa96a2\transformed\jetified-firebase-datatransport-18.1.4\AndroidManifest.xml:30:17-82
+142            <meta-data
+142-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\fd6a80950e4b482038e6650995668c6d\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+143                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+143-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\fd6a80950e4b482038e6650995668c6d\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\fd6a80950e4b482038e6650995668c6d\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+145        </service>
+146
+147        <receiver
+147-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\ddeaf30138fb616a8054c50f5e3ef478\transformed\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:31:9-38:20
+148            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+148-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\ddeaf30138fb616a8054c50f5e3ef478\transformed\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:32:13-78
+149            android:exported="true"
+149-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\ddeaf30138fb616a8054c50f5e3ef478\transformed\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:33:13-36
+150            android:permission="com.google.android.c2dm.permission.SEND" >
+150-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\ddeaf30138fb616a8054c50f5e3ef478\transformed\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:34:13-73
+151            <intent-filter>
+151-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\ddeaf30138fb616a8054c50f5e3ef478\transformed\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:35:13-37:29
+152                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+152-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\ddeaf30138fb616a8054c50f5e3ef478\transformed\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:36:17-81
+152-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\ddeaf30138fb616a8054c50f5e3ef478\transformed\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:36:25-78
+153            </intent-filter>
+154        </receiver>
+155        <!--
+156             FirebaseMessagingService performs security checks at runtime,
+157             but set to not exported to explicitly avoid allowing another app to call it.
+158        -->
+159        <service
+159-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\ddeaf30138fb616a8054c50f5e3ef478\transformed\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:44:9-51:19
+160            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+160-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\ddeaf30138fb616a8054c50f5e3ef478\transformed\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:45:13-82
+161            android:directBootAware="true"
+161-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\ddeaf30138fb616a8054c50f5e3ef478\transformed\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:46:13-43
+162            android:exported="false" >
+162-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\ddeaf30138fb616a8054c50f5e3ef478\transformed\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:47:13-37
+163            <intent-filter android:priority="-500" >
+163-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\ddeaf30138fb616a8054c50f5e3ef478\transformed\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:48:13-50:29
+163-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\ddeaf30138fb616a8054c50f5e3ef478\transformed\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:48:28-51
+164                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+164-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\ddeaf30138fb616a8054c50f5e3ef478\transformed\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:49:17-78
+164-->[com.google.firebase:firebase-messaging:23.0.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\ddeaf30138fb616a8054c50f5e3ef478\transformed\jetified-firebase-messaging-23.0.5\AndroidManifest.xml:49:25-75
+165            </intent-filter>
+166        </service>
+167
+168        <provider
+168-->[com.google.firebase:firebase-common:20.1.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\10739c16c1ef2f02ac0c8ebfa045d22c\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+169            android:name="com.google.firebase.provider.FirebaseInitProvider"
+169-->[com.google.firebase:firebase-common:20.1.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\10739c16c1ef2f02ac0c8ebfa045d22c\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+170            android:authorities="com.level.hub.firebaseinitprovider"
+170-->[com.google.firebase:firebase-common:20.1.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\10739c16c1ef2f02ac0c8ebfa045d22c\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+171            android:directBootAware="true"
+171-->[com.google.firebase:firebase-common:20.1.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\10739c16c1ef2f02ac0c8ebfa045d22c\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+172            android:exported="false"
+172-->[com.google.firebase:firebase-common:20.1.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\10739c16c1ef2f02ac0c8ebfa045d22c\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+173            android:initOrder="100" />
+173-->[com.google.firebase:firebase-common:20.1.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\10739c16c1ef2f02ac0c8ebfa045d22c\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+174
+175        <receiver
+175-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\51f9433449d394599708f77c1ca4292b\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:29:9-33:20
+176            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+176-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\51f9433449d394599708f77c1ca4292b\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:30:13-85
+177            android:enabled="true"
+177-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\51f9433449d394599708f77c1ca4292b\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:31:13-35
+178            android:exported="false" >
+178-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\51f9433449d394599708f77c1ca4292b\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:32:13-37
+179        </receiver>
+180
+181        <service
+181-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\51f9433449d394599708f77c1ca4292b\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:35:9-38:40
+182            android:name="com.google.android.gms.measurement.AppMeasurementService"
+182-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\51f9433449d394599708f77c1ca4292b\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:36:13-84
+183            android:enabled="true"
+183-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\51f9433449d394599708f77c1ca4292b\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:37:13-35
+184            android:exported="false" />
+184-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\51f9433449d394599708f77c1ca4292b\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:38:13-37
+185        <service
+185-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\51f9433449d394599708f77c1ca4292b\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:39:9-43:72
+186            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+186-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\51f9433449d394599708f77c1ca4292b\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:40:13-87
+187            android:enabled="true"
+187-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\51f9433449d394599708f77c1ca4292b\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:41:13-35
+188            android:exported="false"
+188-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\51f9433449d394599708f77c1ca4292b\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:42:13-37
+189            android:permission="android.permission.BIND_JOB_SERVICE" />
+189-->[com.google.android.gms:play-services-measurement:21.0.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\51f9433449d394599708f77c1ca4292b\transformed\jetified-play-services-measurement-21.0.0\AndroidManifest.xml:43:13-69
+190
+191        <activity
+191-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\37a5d8cce13df23889baf397b010d693\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+192            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+192-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\37a5d8cce13df23889baf397b010d693\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+193            android:exported="false"
+193-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\37a5d8cce13df23889baf397b010d693\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+194            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+194-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\37a5d8cce13df23889baf397b010d693\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+195
+196        <meta-data
+196-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\2ee7275d22b7f3432666c4894c5372ef\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+197            android:name="com.google.android.gms.version"
+197-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\2ee7275d22b7f3432666c4894c5372ef\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+198            android:value="@integer/google_play_services_version" />
+198-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\2ee7275d22b7f3432666c4894c5372ef\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+199
+200        <provider
+200-->[androidx.emoji2:emoji2:1.3.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\bc834448a6815b9ae6bed59d60872e1a\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+201            android:name="androidx.startup.InitializationProvider"
+201-->[androidx.emoji2:emoji2:1.3.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\bc834448a6815b9ae6bed59d60872e1a\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+202            android:authorities="com.level.hub.androidx-startup"
+202-->[androidx.emoji2:emoji2:1.3.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\bc834448a6815b9ae6bed59d60872e1a\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+203            android:exported="false" >
+203-->[androidx.emoji2:emoji2:1.3.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\bc834448a6815b9ae6bed59d60872e1a\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+204            <meta-data
+204-->[androidx.emoji2:emoji2:1.3.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\bc834448a6815b9ae6bed59d60872e1a\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+205                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+205-->[androidx.emoji2:emoji2:1.3.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\bc834448a6815b9ae6bed59d60872e1a\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+206                android:value="androidx.startup" />
+206-->[androidx.emoji2:emoji2:1.3.0] C:\Users\mtayk\.gradle\caches\8.9\transforms\bc834448a6815b9ae6bed59d60872e1a\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+207            <meta-data
+207-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\mtayk\.gradle\caches\8.9\transforms\120684bb5ac910108bbba0e04645b083\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+208                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+208-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\mtayk\.gradle\caches\8.9\transforms\120684bb5ac910108bbba0e04645b083\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+209                android:value="androidx.startup" />
+209-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\mtayk\.gradle\caches\8.9\transforms\120684bb5ac910108bbba0e04645b083\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+210            <meta-data
+210-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\c936c03dbebda050dc72886e12afae5e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+211                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+211-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\c936c03dbebda050dc72886e12afae5e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+212                android:value="androidx.startup" />
+212-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\c936c03dbebda050dc72886e12afae5e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+213        </provider>
+214
+215        <service
+215-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\9ab965ab7cd195a381ec05081e24cdb6\transformed\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:29:9-35:19
+216            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+216-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\9ab965ab7cd195a381ec05081e24cdb6\transformed\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:30:13-103
+217            android:exported="false" >
+217-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\9ab965ab7cd195a381ec05081e24cdb6\transformed\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:31:13-37
+218            <meta-data
+218-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\9ab965ab7cd195a381ec05081e24cdb6\transformed\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:32:13-34:39
+219                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+219-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\9ab965ab7cd195a381ec05081e24cdb6\transformed\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:33:17-94
+220                android:value="cct" />
+220-->[com.google.android.datatransport:transport-backend-cct:3.1.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\9ab965ab7cd195a381ec05081e24cdb6\transformed\jetified-transport-backend-cct-3.1.5\AndroidManifest.xml:34:17-36
+221        </service>
+222        <service
+222-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\135bcab649acbb288341a5233612fdc9\transformed\jetified-transport-runtime-3.1.5\AndroidManifest.xml:26:9-30:19
+223            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+223-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\135bcab649acbb288341a5233612fdc9\transformed\jetified-transport-runtime-3.1.5\AndroidManifest.xml:27:13-117
+224            android:exported="false"
+224-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\135bcab649acbb288341a5233612fdc9\transformed\jetified-transport-runtime-3.1.5\AndroidManifest.xml:28:13-37
+225            android:permission="android.permission.BIND_JOB_SERVICE" >
+225-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\135bcab649acbb288341a5233612fdc9\transformed\jetified-transport-runtime-3.1.5\AndroidManifest.xml:29:13-69
+226        </service>
+227
+228        <receiver
+228-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\135bcab649acbb288341a5233612fdc9\transformed\jetified-transport-runtime-3.1.5\AndroidManifest.xml:32:9-34:40
+229            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+229-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\135bcab649acbb288341a5233612fdc9\transformed\jetified-transport-runtime-3.1.5\AndroidManifest.xml:33:13-132
+230            android:exported="false" />
+230-->[com.google.android.datatransport:transport-runtime:3.1.5] C:\Users\mtayk\.gradle\caches\8.9\transforms\135bcab649acbb288341a5233612fdc9\transformed\jetified-transport-runtime-3.1.5\AndroidManifest.xml:34:13-37
+231        <receiver
+231-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\c936c03dbebda050dc72886e12afae5e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+232            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+232-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\c936c03dbebda050dc72886e12afae5e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+233            android:directBootAware="false"
+233-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\c936c03dbebda050dc72886e12afae5e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+234            android:enabled="true"
+234-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\c936c03dbebda050dc72886e12afae5e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+235            android:exported="true"
+235-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\c936c03dbebda050dc72886e12afae5e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+236            android:permission="android.permission.DUMP" >
+236-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\c936c03dbebda050dc72886e12afae5e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+237            <intent-filter>
+237-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\c936c03dbebda050dc72886e12afae5e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+238                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+238-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\c936c03dbebda050dc72886e12afae5e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+238-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\c936c03dbebda050dc72886e12afae5e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+239            </intent-filter>
+240            <intent-filter>
+240-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\c936c03dbebda050dc72886e12afae5e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+241                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+241-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\c936c03dbebda050dc72886e12afae5e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+241-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\c936c03dbebda050dc72886e12afae5e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+242            </intent-filter>
+243            <intent-filter>
+243-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\c936c03dbebda050dc72886e12afae5e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+244                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+244-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\c936c03dbebda050dc72886e12afae5e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+244-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\c936c03dbebda050dc72886e12afae5e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+245            </intent-filter>
+246            <intent-filter>
+246-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\c936c03dbebda050dc72886e12afae5e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+247                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+247-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\c936c03dbebda050dc72886e12afae5e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+247-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\mtayk\.gradle\caches\8.9\transforms\c936c03dbebda050dc72886e12afae5e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+248            </intent-filter>
+249        </receiver>
+250    </application>
+251
+252</manifest>

@@ -1,0 +1,337 @@
+ninja: Entering directory `C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\.cxx\RelWithDebInfo\4cj634ge\armeabi-v7a'
+[1/3] Building CXX object CMakeFiles/samp.dir/game/CRenderTarget.cpp.o
+clang++: warning: argument unused during compilation: '-s' [-Wunused-command-line-argument]
+In file included from C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/game/CRenderTarget.cpp:3:
+In file included from C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/game/../main.h:9:
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/game/../game/common.h:70:9: warning: Compiling for CR [-W#pragma-messages]
+#pragma message "Compiling for CR"
+        ^
+In file included from C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/game/CRenderTarget.cpp:3:
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/game/../main.h:9:10: warning: the current #pragma pack alignment value is modified in the included file [-Wpragma-pack]
+#include "game/common.h"
+         ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/game/../game/common.h:572:9: note: previous '#pragma pack' directive that modifies alignment is here
+#pragma pack(1)
+        ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/game/CRenderTarget.cpp:3:10: warning: the current #pragma pack alignment value is modified in the included file [-Wpragma-pack]
+#include "../main.h"
+         ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/game/../game/common.h:572:9: note: previous '#pragma pack' directive that modifies alignment is here
+#pragma pack(1)
+        ^
+In file included from C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/game/CRenderTarget.cpp:4:
+In file included from C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/game/game.h:6:
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/game/quaternion.h:7:70: warning: field 'z' will be initialized after field 'w' [-Wreorder]
+        CQuaternion(float _x, float _y, float _z, float _w) : x(_x), y(_y), z(_z), w(_w) {};
+                                                                            ^
+In file included from C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/game/CRenderTarget.cpp:4:
+In file included from C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/game/game.h:16:
+In file included from C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/game/textdraw.h:3:
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/game/RW/RenderWare.h:17:9: warning: 'RWRGBALONG' macro redefined [-Wmacro-redefined]
+#define RWRGBALONG(r,g,b,a) ((unsigned int) (((a) << 24) | ((r) << 16) | ((g) << 8) | (b)))
+        ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/game/RW/rwplcore.h:1291:9: note: previous definition is here
+#define RWRGBALONG(r,g,b,a)                                             \
+        ^
+5 warnings generated.
+[2/3] Building CXX object CMakeFiles/samp.dir/net/netgame.cpp.o
+clang++: warning: argument unused during compilation: '-s' [-Wunused-command-line-argument]
+In file included from C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/netgame.cpp:1:
+In file included from C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../main.h:9:
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../game/common.h:70:9: warning: Compiling for CR [-W#pragma-messages]
+#pragma message "Compiling for CR"
+        ^
+In file included from C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/netgame.cpp:1:
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../main.h:9:10: warning: the current #pragma pack alignment value is modified in the included file [-Wpragma-pack]
+#include "game/common.h"
+         ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../game/common.h:572:9: note: previous '#pragma pack' directive that modifies alignment is here
+#pragma pack(1)
+        ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/netgame.cpp:1:10: warning: the current #pragma pack alignment value is modified in the included file [-Wpragma-pack]
+#include "../main.h"
+         ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../game/common.h:572:9: note: previous '#pragma pack' directive that modifies alignment is here
+#pragma pack(1)
+        ^
+In file included from C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/netgame.cpp:2:
+In file included from C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../game/game.h:6:
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../game/quaternion.h:7:70: warning: field 'z' will be initialized after field 'w' [-Wreorder]
+        CQuaternion(float _x, float _y, float _z, float _w) : x(_x), y(_y), z(_z), w(_w) {};
+                                                                            ^
+In file included from C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/netgame.cpp:2:
+In file included from C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../game/game.h:16:
+In file included from C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../game/textdraw.h:3:
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../game/RW/RenderWare.h:17:9: warning: 'RWRGBALONG' macro redefined [-Wmacro-redefined]
+#define RWRGBALONG(r,g,b,a) ((unsigned int) (((a) << 24) | ((r) << 16) | ((g) << 8) | (b)))
+        ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../game/RW/rwplcore.h:1291:9: note: previous definition is here
+#define RWRGBALONG(r,g,b,a)                                             \
+        ^
+In file included from C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/netgame.cpp:13:
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../util/CJavaWrapper.h:8:32: warning: backslash and newline separated by space [-Wbackslash-newline-escape]
+        if ((env)->ExceptionCheck()) \ 
+                                      ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/netgame.cpp:43:23: warning: duplicate 'static' declaration specifier [-Wduplicate-decl-specifier]
+        strcpy(m_szHostName, OBFUSCATE("San Andreas Multiplayer"));
+                             ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../obfuscate/str_obfuscate.hpp:98:25: note: expanded from macro 'OBFUSCATE'
+#define OBFUSCATE(data) AY_OBFUSCATE_KEY(data, 'L')
+                        ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../obfuscate/str_obfuscate.hpp:105:10: note: expanded from macro 'AY_OBFUSCATE_KEY'
+                static static auto obfuscated_data = ay::obfuscated_data<n, key>(obfuscator); \
+                       ^
+In file included from C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/netgame.cpp:152:
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/..//CServerManager.h:15:109: warning: field '_port' will be initialized after field '_isVoice' [-Wreorder]
+                        _buffer{}, _decrypted{ false }, _key{ static_cast<const char>(len % 255) }, _length{ len }, _sum{ sum }, _port{ port }, _isVoice{ isVoice }
+                                                                                                                                 ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/netgame.cpp:246:15: warning: unused variable 'sent' [-Wunused-variable]
+                static bool sent = false;
+                            ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/netgame.cpp:302:12: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+        while(pkt = m_pRakClient->Receive())
+              ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/netgame.cpp:302:12: note: place parentheses around the assignment to silence this warning
+        while(pkt = m_pRakClient->Receive())
+                  ^
+              (                            )
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/netgame.cpp:302:12: note: use '==' to turn this assignment into an equality comparison
+        while(pkt = m_pRakClient->Receive())
+                  ^
+                  ==
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/netgame.cpp:336:33: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+                        pChatWindow->AddDebugMessage("Failed to initialize encryption.");
+                                                     ^
+In file included from C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/netgame.cpp:431:
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/..//game/CCustomPlateManager.h:27:9: warning: struct 'CSprite2d' was previously declared as a class; this is valid, but may result in linker errors under the Microsoft C++ ABI [-Wmismatched-tags]
+        static struct CSprite2d* m_pRuSprite;
+               ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../game/sprite2d.h:3:7: note: previous use is here
+class CSprite2d
+      ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/..//game/CCustomPlateManager.h:27:9: note: did you mean class here?
+        static struct CSprite2d* m_pRuSprite;
+               ^~~~~~
+               class
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/..//game/CCustomPlateManager.h:28:9: warning: struct 'CSprite2d' was previously declared as a class; this is valid, but may result in linker errors under the Microsoft C++ ABI [-Wmismatched-tags]
+        static struct CSprite2d* m_pUaSprite;
+               ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../game/sprite2d.h:3:7: note: previous use is here
+class CSprite2d
+      ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/..//game/CCustomPlateManager.h:28:9: note: did you mean class here?
+        static struct CSprite2d* m_pUaSprite;
+               ^~~~~~
+               class
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/..//game/CCustomPlateManager.h:29:9: warning: struct 'CSprite2d' was previously declared as a class; this is valid, but may result in linker errors under the Microsoft C++ ABI [-Wmismatched-tags]
+        static struct CSprite2d* m_pBuSprite;
+               ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../game/sprite2d.h:3:7: note: previous use is here
+class CSprite2d
+      ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/..//game/CCustomPlateManager.h:29:9: note: did you mean class here?
+        static struct CSprite2d* m_pBuSprite;
+               ^~~~~~
+               class
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/..//game/CCustomPlateManager.h:30:9: warning: struct 'CSprite2d' was previously declared as a class; this is valid, but may result in linker errors under the Microsoft C++ ABI [-Wmismatched-tags]
+        static struct CSprite2d* m_pKzSprite;
+               ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../game/sprite2d.h:3:7: note: previous use is here
+class CSprite2d
+      ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/..//game/CCustomPlateManager.h:30:9: note: did you mean class here?
+        static struct CSprite2d* m_pKzSprite;
+               ^~~~~~
+               class
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/..//game/CCustomPlateManager.h:31:9: warning: struct 'CSprite2d' was previously declared as a class; this is valid, but may result in linker errors under the Microsoft C++ ABI [-Wmismatched-tags]
+        static struct CSprite2d* m_pRuPoliceSprite;
+               ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../game/sprite2d.h:3:7: note: previous use is here
+class CSprite2d
+      ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/..//game/CCustomPlateManager.h:31:9: note: did you mean class here?
+        static struct CSprite2d* m_pRuPoliceSprite;
+               ^~~~~~
+               class
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/..//game/CCustomPlateManager.h:33:9: warning: struct 'CSprite2d' was previously declared as a class; this is valid, but may result in linker errors under the Microsoft C++ ABI [-Wmismatched-tags]
+        static struct CSprite2d* m_pTaxiSprite;
+               ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../game/sprite2d.h:3:7: note: previous use is here
+class CSprite2d
+      ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/..//game/CCustomPlateManager.h:33:9: note: did you mean class here?
+        static struct CSprite2d* m_pTaxiSprite;
+               ^~~~~~
+               class
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/..//game/CCustomPlateManager.h:34:9: warning: struct 'CSprite2d' was previously declared as a class; this is valid, but may result in linker errors under the Microsoft C++ ABI [-Wmismatched-tags]
+        static struct CSprite2d* m_pRuGosSprite;
+               ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../game/sprite2d.h:3:7: note: previous use is here
+class CSprite2d
+      ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/..//game/CCustomPlateManager.h:34:9: note: did you mean class here?
+        static struct CSprite2d* m_pRuGosSprite;
+               ^~~~~~
+               class
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/..//game/CCustomPlateManager.h:35:9: warning: struct 'CSprite2d' was previously declared as a class; this is valid, but may result in linker errors under the Microsoft C++ ABI [-Wmismatched-tags]
+        static struct CSprite2d* m_pNoPlateSprite;
+               ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../game/sprite2d.h:3:7: note: previous use is here
+class CSprite2d
+      ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/..//game/CCustomPlateManager.h:35:9: note: did you mean class here?
+        static struct CSprite2d* m_pNoPlateSprite;
+               ^~~~~~
+               class
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/netgame.cpp:920:6: warning: duplicate 'static' declaration specifier [-Wduplicate-decl-specifier]
+        Log(OBFUSCATE("ResetVehiclePool"));
+            ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../obfuscate/str_obfuscate.hpp:98:25: note: expanded from macro 'OBFUSCATE'
+#define OBFUSCATE(data) AY_OBFUSCATE_KEY(data, 'L')
+                        ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../obfuscate/str_obfuscate.hpp:105:10: note: expanded from macro 'AY_OBFUSCATE_KEY'
+                static static auto obfuscated_data = ay::obfuscated_data<n, key>(obfuscator); \
+                       ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/netgame.cpp:929:6: warning: duplicate 'static' declaration specifier [-Wduplicate-decl-specifier]
+        Log(OBFUSCATE("ResetObjectPool"));
+            ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../obfuscate/str_obfuscate.hpp:98:25: note: expanded from macro 'OBFUSCATE'
+#define OBFUSCATE(data) AY_OBFUSCATE_KEY(data, 'L')
+                        ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../obfuscate/str_obfuscate.hpp:105:10: note: expanded from macro 'AY_OBFUSCATE_KEY'
+                static static auto obfuscated_data = ay::obfuscated_data<n, key>(obfuscator); \
+                       ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/netgame.cpp:938:6: warning: duplicate 'static' declaration specifier [-Wduplicate-decl-specifier]
+        Log(OBFUSCATE("ResetPickupPool"));
+            ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../obfuscate/str_obfuscate.hpp:98:25: note: expanded from macro 'OBFUSCATE'
+#define OBFUSCATE(data) AY_OBFUSCATE_KEY(data, 'L')
+                        ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../obfuscate/str_obfuscate.hpp:105:10: note: expanded from macro 'AY_OBFUSCATE_KEY'
+                static static auto obfuscated_data = ay::obfuscated_data<n, key>(obfuscator); \
+                       ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/netgame.cpp:947:6: warning: duplicate 'static' declaration specifier [-Wduplicate-decl-specifier]
+        Log(OBFUSCATE("ResetGangZonePool"));
+            ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../obfuscate/str_obfuscate.hpp:98:25: note: expanded from macro 'OBFUSCATE'
+#define OBFUSCATE(data) AY_OBFUSCATE_KEY(data, 'L')
+                        ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../obfuscate/str_obfuscate.hpp:105:10: note: expanded from macro 'AY_OBFUSCATE_KEY'
+                static static auto obfuscated_data = ay::obfuscated_data<n, key>(obfuscator); \
+                       ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/netgame.cpp:956:6: warning: duplicate 'static' declaration specifier [-Wduplicate-decl-specifier]
+        Log(OBFUSCATE("ResetLabelPool"));
+            ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../obfuscate/str_obfuscate.hpp:98:25: note: expanded from macro 'OBFUSCATE'
+#define OBFUSCATE(data) AY_OBFUSCATE_KEY(data, 'L')
+                        ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../obfuscate/str_obfuscate.hpp:105:10: note: expanded from macro 'AY_OBFUSCATE_KEY'
+                static static auto obfuscated_data = ay::obfuscated_data<n, key>(obfuscator); \
+                       ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/netgame.cpp:965:6: warning: duplicate 'static' declaration specifier [-Wduplicate-decl-specifier]
+        Log(OBFUSCATE("ResetActorPool"));
+            ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../obfuscate/str_obfuscate.hpp:98:25: note: expanded from macro 'OBFUSCATE'
+#define OBFUSCATE(data) AY_OBFUSCATE_KEY(data, 'L')
+                        ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../obfuscate/str_obfuscate.hpp:105:10: note: expanded from macro 'AY_OBFUSCATE_KEY'
+                static static auto obfuscated_data = ay::obfuscated_data<n, key>(obfuscator); \
+                       ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/netgame.cpp:975:6: warning: duplicate 'static' declaration specifier [-Wduplicate-decl-specifier]
+        Log(OBFUSCATE("ResetTextDrawPool"));
+            ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../obfuscate/str_obfuscate.hpp:98:25: note: expanded from macro 'OBFUSCATE'
+#define OBFUSCATE(data) AY_OBFUSCATE_KEY(data, 'L')
+                        ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../obfuscate/str_obfuscate.hpp:105:10: note: expanded from macro 'AY_OBFUSCATE_KEY'
+                static static auto obfuscated_data = ay::obfuscated_data<n, key>(obfuscator); \
+                       ^
+In file included from C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/netgame.cpp:431:
+In file included from C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/..//game/CCustomPlateManager.h:4:
+In file included from C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/net/../gui/CFontInstance.h:5:
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:4718:15: warning: unused function 'stbtt_BakeFontBitmap' [-Wunused-function]
+STBTT_DEF int stbtt_BakeFontBitmap(const unsigned char *data, int offset,
+              ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:3673:16: warning: unused function 'stbtt_GetBakedQuad' [-Wunused-function]
+STBTT_DEF void stbtt_GetBakedQuad(const stbtt_bakedchar *chardata, int pw, int ph, int char_index, float *xpos, float *ypos, stbtt_aligned_quad *q, int opengl_fillrule)
+               ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:3771:15: warning: unused function 'stbtt_PackBegin' [-Wunused-function]
+STBTT_DEF int stbtt_PackBegin(stbtt_pack_context *spc, unsigned char *pixels, int pw, int ph, int stride_in_bytes, int padding, void *alloc_context)
+              ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:3802:16: warning: unused function 'stbtt_PackEnd' [-Wunused-function]
+STBTT_DEF void stbtt_PackEnd  (stbtt_pack_context *spc)
+               ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:4132:15: warning: unused function 'stbtt_PackFontRange' [-Wunused-function]
+STBTT_DEF int stbtt_PackFontRange(stbtt_pack_context *spc, const unsigned char *fontdata, int font_index, float font_size,
+              ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:3808:16: warning: unused function 'stbtt_PackSetOversampling' [-Wunused-function]
+STBTT_DEF void stbtt_PackSetOversampling(stbtt_pack_context *spc, unsigned int h_oversample, unsigned int v_oversample)
+               ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:4144:16: warning: unused function 'stbtt_GetPackedQuad' [-Wunused-function]
+STBTT_DEF void stbtt_GetPackedQuad(const stbtt_packedchar *chardata, int pw, int ph, int char_index, float *xpos, float *ypos, stbtt_aligned_quad *q, int align_to_integer)
+               ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:4730:15: warning: unused function 'stbtt_GetNumberOfFonts' [-Wunused-function]
+STBTT_DEF int stbtt_GetNumberOfFonts(const unsigned char *data)
+              ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:2563:16: warning: unused function 'stbtt_GetFontVMetrics' [-Wunused-function]
+STBTT_DEF void stbtt_GetFontVMetrics(const stbtt_fontinfo *info, int *ascent, int *descent, int *lineGap)
+               ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:2570:16: warning: unused function 'stbtt_GetFontVMetricsOS2' [-Wunused-function]
+STBTT_DEF int  stbtt_GetFontVMetricsOS2(const stbtt_fontinfo *info, int *typoAscent, int *typoDescent, int *typoLineGap)
+               ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:2581:16: warning: unused function 'stbtt_GetFontBoundingBox' [-Wunused-function]
+STBTT_DEF void stbtt_GetFontBoundingBox(const stbtt_fontinfo *info, int *x0, int *y0, int *x1, int *y1)
+               ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:2558:16: warning: unused function 'stbtt_GetCodepointHMetrics' [-Wunused-function]
+STBTT_DEF void stbtt_GetCodepointHMetrics(const stbtt_fontinfo *info, int codepoint, int *advanceWidth, int *leftSideBearing)
+               ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:2551:16: warning: unused function 'stbtt_GetCodepointKernAdvance' [-Wunused-function]
+STBTT_DEF int  stbtt_GetCodepointKernAdvance(const stbtt_fontinfo *info, int ch1, int ch2)
+               ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:1590:15: warning: unused function 'stbtt_GetCodepointBox' [-Wunused-function]
+STBTT_DEF int stbtt_GetCodepointBox(const stbtt_fontinfo *info, int codepoint, int *x0, int *y0, int *x1, int *y1)
+              ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:1595:15: warning: unused function 'stbtt_IsGlyphEmpty' [-Wunused-function]
+STBTT_DEF int stbtt_IsGlyphEmpty(const stbtt_fontinfo *info, int glyph_index)
+              ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:1538:15: warning: unused function 'stbtt_GetCodepointShape' [-Wunused-function]
+STBTT_DEF int stbtt_GetCodepointShape(const stbtt_fontinfo *info, int unicode_codepoint, stbtt_vertex **vertices)
+              ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:2601:16: warning: unused function 'stbtt_FreeShape' [-Wunused-function]
+STBTT_DEF void stbtt_FreeShape(const stbtt_fontinfo *info, stbtt_vertex *v)
+               ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:3522:16: warning: unused function 'stbtt_FreeBitmap' [-Wunused-function]
+STBTT_DEF void stbtt_FreeBitmap(unsigned char *bitmap, void *userdata)
+               ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:3611:26: warning: unused function 'stbtt_GetCodepointBitmap' [-Wunused-function]
+STBTT_DEF unsigned char *stbtt_GetCodepointBitmap(const stbtt_fontinfo *info, float scale_x, float scale_y, int codepoint, int *width, int *height, int *xoff, int *yoff)
+                         ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:3616:16: warning: unused function 'stbtt_MakeCodepointBitmap' [-Wunused-function]
+STBTT_DEF void stbtt_MakeCodepointBitmap(const stbtt_fontinfo *info, unsigned char *output, int out_w, int out_h, int out_stride, float scale_x, float scale_y, int codepoint)
+               ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:3601:16: warning: unused function 'stbtt_MakeCodepointBitmapSubpixelPrefilter' [-Wunused-function]
+STBTT_DEF void stbtt_MakeCodepointBitmapSubpixelPrefilter(const stbtt_fontinfo *info, unsigned char *output, int out_w, int out_h, int out_stride, float scale_x, float scale_y, float shift_x, float shift_y, int oversample_x, int oversample_y, float *sub_x, float *sub_y, int codepoint)
+               ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:2639:16: warning: unused function 'stbtt_GetCodepointBitmapBox' [-Wunused-function]
+STBTT_DEF void stbtt_GetCodepointBitmapBox(const stbtt_fontinfo *font, int codepoint, float scale_x, float scale_y, int *ix0, int *iy0, int *ix1, int *iy1)
+               ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:3567:26: warning: unused function 'stbtt_GetGlyphBitmap' [-Wunused-function]
+STBTT_DEF unsigned char *stbtt_GetGlyphBitmap(const stbtt_fontinfo *info, float scale_x, float scale_y, int glyph, int *width, int *height, int *xoff, int *yoff)
+                         ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:4548:16: warning: unused function 'stbtt_FreeSDF' [-Wunused-function]
+STBTT_DEF void stbtt_FreeSDF(unsigned char *bitmap, void *userdata)
+               ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:4543:27: warning: unused function 'stbtt_GetCodepointSDF' [-Wunused-function]
+STBTT_DEF unsigned char * stbtt_GetCodepointSDF(const stbtt_fontinfo *info, float scale, int codepoint, int padding, unsigned char onedge_value, float pixel_dist_scale, int *width, int *height, int *xoff, int *yoff)
+                          ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:4740:15: warning: unused function 'stbtt_FindMatchingFont' [-Wunused-function]
+STBTT_DEF int stbtt_FindMatchingFont(const unsigned char *fontdata, const char *name, int flags)
+              ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:4745:15: warning: unused function 'stbtt_CompareUTF8toUTF16_bigendian' [-Wunused-function]
+STBTT_DEF int stbtt_CompareUTF8toUTF16_bigendian(const char *s1, int len1, const char *s2, int len2)
+              ^
+C:/Users/mtayk/Desktop/SOURCES/LEVEL/lit-last/java/app/src/main/jni/vendor\imgui/stb_truetype.h:4605:23: warning: unused function 'stbtt_GetFontNameString' [-Wunused-function]
+STBTT_DEF const char *stbtt_GetFontNameString(const stbtt_fontinfo *font, int *length, int platformID, int encodingID, int languageID, int nameID)
+                      ^
+54 warnings generated.
+[3/3] Linking CXX shared library C:\Users\mtayk\Desktop\SOURCES\LEVEL\lit-last\java\app\build\intermediates\cxx\RelWithDebInfo\4cj634ge\obj\armeabi-v7a\libsamp.so

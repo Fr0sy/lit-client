@@ -1,0 +1,4 @@
+#Mon Jun 16 23:05:09 MSK 2025
+base.0=C\:\\Users\\mtayk\\Desktop\\SOURCES\\LEVEL\\lit-last\\java\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

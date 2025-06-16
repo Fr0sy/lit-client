@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/jni/CLocalisation.cpp" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jni/game/CCustomPlateManager.cpp" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jni/game/CVector.cpp" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jni/game/CVector.h" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jni/game/common.h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jni/game/game.cpp" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jni/game/object.cpp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jni/keyboard.cpp" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/app/src/main/jni/playertags.cpp" charset="windows-1251" />
+  </component>
+</project>

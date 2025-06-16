@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="_10sdp">24.0dip</dimen>
+    <dimen name="_12sdp">28.799988dip</dimen>
+    <dimen name="_13sdp">31.199982dip</dimen>
+    <dimen name="_14sdp">33.599976dip</dimen>
+    <dimen name="_176sdp">422.39844dip</dimen>
+    <dimen name="_19sdp">45.599976dip</dimen>
+    <dimen name="_1sdp">2.399994dip</dimen>
+    <dimen name="_20sdp">48.0dip</dimen>
+    <dimen name="_24sdp">57.599976dip</dimen>
+    <dimen name="_2sdp">4.799988dip</dimen>
+    <dimen name="_3sdp">7.1999817dip</dimen>
+    <dimen name="_4sdp">9.599976dip</dimen>
+    <dimen name="_51sdp">122.399994dip</dimen>
+    <dimen name="_5sdp">12.0dip</dimen>
+    <dimen name="_6sdp">14.399994dip</dimen>
+    <dimen name="_7sdp">16.799988dip</dimen>
+    <dimen name="_8sdp">19.199982dip</dimen>
+    <dimen name="_92sdp">220.79999dip</dimen>
+    <dimen name="_9sdp">21.599976dip</dimen>
+</resources>
