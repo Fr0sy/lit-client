@@ -6,19 +6,20 @@
 
 ## ✨ Highlights
 
-- fully refactored sync system  
-- ultra-optimized client & launcher  
-- encrypted `.mtk` archive format (replacing `.img`)  
-- custom cache structure  
-- clean & fast Java codebase  
-- auto-installation  
-- built-in news feed  
-- in-game Java chat  
-- HUD hiding support  
-- advanced patches & hooks  
-- radar auto-align to HUD  
-- hooked OpenGL rendering  
-- and way more — tons of improvements under the hood  
+- fully refactored sync system
+- ultra-optimized client & launcher
+- encrypted `.mtk` archive format (replacing `.img`)
+- custom cache structure
+- clean & fast Java codebase
+- auto-installation
+- built-in news feed
+- in-game Java chat
+- HUD hiding support
+- advanced patches & hooks
+- radar auto-align to HUD
+- hooked OpenGL rendering
+- debug menu
+- and way more — tons of improvements under the hood
 
 The client is stable *if properly configured* and was written almost from scratch.  
 This is the **updated version**, with archive encryption and launcher upgrades.
